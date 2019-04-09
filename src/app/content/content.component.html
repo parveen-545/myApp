@@ -1,0 +1,79 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="dashboard">
+            <div class="dashboard-header">
+                <h4>Dashboard</h4>
+            </div>
+
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active">
+                    <strong class="blue-heading ">Recently Submitted</strong>
+                    <div class="section-recently">
+                        <ul>
+                            <li>
+                                <p><strong>Authorization for</strong></p>
+                                <p class="light-gray"><i>13 hours ago by Jane Smith</i></p>
+                                <p>Patient: H. Jones Provider: <span>Baylor Need Authorization for... </span> Read more
+                                </p>
+                            </li>
+                            <li>
+                                <p><strong>Authorization for</strong></p>
+                                <p class="light-gray"><i>15 hours ago by Jane Smith</i></p>
+                                <p>Patient: N. Thomas Provider: <span>Baylor Need Authorization for...
+                                        </span> Read more</p>
+                            </li>
+                            <li>
+                                <p><strong>Authorization for</strong></p>
+                                <p class="light-gray"><i>11 hours ago by Jane Smith</i></p>
+                                <p>Patient: R. Taylor Provider: <span>Baylor Need Authorization for... </span> Read more
+                                </p>
+                            </li>
+                            <li>
+                                <p><strong>Authorization for</strong></p>
+                                <p class="light-gray"><i>18 hours ago by Jane Smith</i></p>
+                                <p>Patient: T. Cox Provider: <span>Baylor Need Authorization for... </span> Read more
+                                </p>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+
+
+                <div class="tab-pane">
+                    <form class="form-inline my-3">
+                        <div class="form-group mb-2 form-element">Find Authorizations</div>
+                        <div class="form-group mb-0">
+                            <select id="inputState" class="form-control">
+                                    <option selected>Name starts with:</option>
+                                </select>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="validationTooltipUsername" placeholder="Username" aria-describedby="validationTooltipUsernamePrepend" required="">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text btn-go" id="validationTooltipUsernamePrepend">Go!</span>
+                            </div>
+
+                            <div class="invalid-tooltip">
+                                Please choose a unique and valid username.
+                            </div>
+                        </div>
+                    </form>
+
+                    <form class="form-inline my-3">
+                        <div class="form-group mb-2  form-element">Request from:</div>
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="validationTooltipUsername" placeholder="Username" aria-describedby="validationTooltipUsernamePrepend" required="">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text btn-go" id="validationTooltipUsernamePrepend">Go!</span>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>

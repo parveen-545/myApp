@@ -1,0 +1,953 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    background: #f5f5f5;
+}
+
+html, *, ::after, ::before {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.h1, h1, .h2, h2, .h3, h3, .h4, h4, .h5, h5, .h6, h6 {
+    font-weight: 600;
+}
+
+a {
+    color: #333;
+}
+a:hover {
+    text-decoration: none;
+}
+
+.signup input {
+    border-radius: 30px;
+    font-size: 14px;
+}
+ 
+
+form, form input, .btn-go, form select, .btn, input.form-control {
+    font-size: 14px !important;
+}
+
+
+
+.tc {
+    text-align: center;
+}
+
+.login-btn {
+    display: flex;
+    flex-direction: column;
+}
+.login-btn .btn {
+    border-radius: 30px;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 14px;
+}
+.vc{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.full-width {
+    width: 100% !important;
+}
+
+.width91 {
+    width: 91% !important;
+}
+
+
+.lr-border0{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.signup input {
+    border-radius: 30px;
+}
+
+.calander-icon {
+    padding: 11px 14px 10px;
+    margin-left: -1px;
+}
+.topbar {
+    background: #0073b7;
+}
+
+.topbar button, .topbar a {
+    color: #fff;
+}
+
+header .navbar {
+    padding: 0;
+    width: 100%;
+    background: #fff;
+    max-height: 50px;
+}
+
+ 
+.dropdown button:hover {
+    color: #fff;
+}
+
+.dropdown-menu.show a {
+    color: #333;
+}
+
+a.nav-link {
+    padding: 14px;
+    transition: 0.5s all;
+}
+
+a.nav-link.active {
+    background: #0073b7;
+    padding: 14px;
+    color: #fff;
+    border-bottom: 2px solid #00c0ef;
+}
+
+ 
+
+li.nav-item a.nav-link:hover {
+    background: #0073b7;
+    color: #fff;
+    border-bottom: 2px solid #00c0ef;
+}
+
+
+ul.nav.justify-content-end.right-nav {
+    flex: 1;
+}
+
+.btn-signin {
+    margin-top: 12px;
+}
+.nav {
+    align-items: center;
+}
+
+.dashboard-header h4 {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.dashboard div#myTabContent {
+    padding: 10px 20px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+ul.signin-footer-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+ul.signin-footer-links li {
+    padding: 0 10px;
+}
+
+ul.signin-footer-links li i {
+    color: #007bff;
+}
+
+ul.nav li.nav-item .dropdown-menu {
+    width: 100%;
+}
+
+li.nav-item.icon-bell {
+    color: #fff;
+    position: relative;
+}
+
+li.nav-item.icon-bell .notification {
+    background: #00c0ef;
+    position: absolute;
+    color: #fff;
+    padding: 0 5px;
+    border-radius: 5px;
+    top: -5px;
+    left: 15px;
+    font-size: 12px;
+}
+
+.dashboard {
+    flex: 1;
+    width: 100%;
+    background: #fff;
+    padding: 0 0px 10px 0;
+}
+
+.dashboard .dashboard-header {
+    border-bottom: 1px solid #ddd;
+    flex: 1;
+    margin-bottom: 0;
+    padding: 10px 10px 8px;
+    background: #f7f7f7;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+}
+.dashboard ul {
+    justify-content: space-between;
+    display: flex;
+    padding: 10px 10px 0;
+}
+
+.dashboard ul .nav-link {
+    padding: .5rem 4rem;
+}
+
+.gap15 {
+    padding: 15px 0;
+}
+
+.section-recently {
+    padding: 0px;
+}
+
+.section-recently ul {
+    display: block;
+}
+
+.section-recently ul li {
+    position: relative;
+}
+
+.section-recently ul li:hover {
+    background: #f5f5f5;
+}
+
+.section-recently strong {
+    color: #0073b7;
+}
+
+
+.section-recently ul li:before {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    content: '';
+    width: 3px;
+    height: 100%;
+    background: #ccc;
+}
+
+.section-recently ul li:after {
+    position: absolute;
+    top: 10px;
+    left: -5px;
+    content: '';
+    width: 14px;
+    height: 14px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    background: #fff;
+}
+
+.section-recently ul li {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 20px;
+}
+
+.section-recently p {
+    margin-bottom: 8px;
+}
+
+.light-gray{
+    color: #999;
+}
+
+.section-recently p span {
+    padding-left: 30px;
+}
+
+.section-table thead, .summary-table thead {
+    background: #0073b7;
+    color: #fff;
+}
+ 
+.blue-heading {
+    color: #0073b7;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: 15px;
+    display: block;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+    padding: 6px;
+}
+
+.input-group-prepend {
+    margin-left: -1px;
+}
+
+.btn-go {
+    border-top-right-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+    background: #0073b7;
+    color: #fff;
+    border: none;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+.other-form {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.nav-pills .nav-link {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.form-element {
+    min-width: 160px;
+}
+
+.new-invitation {
+    width: 90%;
+    padding-top: 10px;
+}
+
+.new-invitation select {
+    border-radius: 30px;
+}
+
+.new-invitation .form-row {
+    display: flex;
+    align-items: center;
+}
+
+.vc h2 {
+    border-bottom: 1px solid;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+form.new-invitation .btn {
+    border-radius: 30px;
+    padding: 0 15px;
+    margin: 12px 0 0px;
+    min-height: 35px;
+    width: 16%;
+}
+
+.new-invitation h2 {
+    padding: 15px 0px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+}
+
+ul.nav.nav-pills.justify-content-end {
+    border-bottom: 1px solid #ddd;
+}
+
+.container.newinvitation .vc {
+    border: 1px solid #ddd;
+    min-height: 150px;
+    padding-bottom: 20px;
+    height: 50%;
+
+}
+
+form.new-invitation input {
+    border-radius: 30px;
+}
+
+.dropdown-item {
+    font-size: 14px;
+}
+
+.container.register h2 {
+    margin-bottom: 20px;
+}
+
+.register input.form-control {
+    border-radius: 30px;
+}
+
+.nav-link {
+    padding: .5rem;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}
+
+.form-control:focus {
+    border-color: #0073b7;
+    box-shadow: none;
+}
+
+.new-auth {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+h6 {
+    color: #0073b7;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: 0px;
+    display: block;
+    font-weight: bold;
+}
+ 
+.prog-bar {
+    width: 80%;
+    margin: 0 auto 100px;
+}
+
+.prog-bar ul{
+    position: relative;
+    z-index: 0;
+}
+.prog-bar ul:after{
+    position: absolute;
+    content: '';
+    background:#00c0ef;
+    height: 3px;
+    width: 97%;
+    top: 23px;
+    left: 15px;
+    z-index: -1;
+}
+.prog-bar ul li{
+    background: #00c0ef;
+    border-radius: 30px;
+    height: 30px;
+    width: 30px;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+}
+
+.prog-bar .text {
+    position: relative;
+    min-width: 120px;
+    margin: 10px auto;
+    right: 43px;
+    color: #333;
+    line-height: normal;
+}
+
+.btn-auth {
+    display: flex;
+    justify-content: flex-end;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.top40 {
+    padding-top: 40px;
+}
+
+.btn-auth .btn {
+    margin: 2px;
+}
+
+.chkbx {
+    display: flex;
+    width: 100%;
+}
+.dob {
+    display: flex;
+}
+
+.dob .calander-icon {
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.upload {
+    position: relative;
+}
+ 
+.btn-upload {
+    background: #0073b7;
+    padding: 7px 12px;
+    border-radius: 5px;
+    color: #fff;
+    position: absolute;
+    right: 5px;
+    top: 29px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.topbar ul.nav.justify-content-start li{
+    padding: 0 25px 0 0;
+}
+ 
+
+
+.section-summary {
+    padding: 0px;
+}
+
+.section-summary ul {
+    display: flex;
+    padding: 0;
+}
+
+.section-summary ul li {
+    margin-right: 10px;
+    padding: 10px;
+    flex: 1;
+    text-align: center;
+    background: #f8f8f8;
+}
+
+.section-summary ul li  p {
+    margin-bottom: 5px;
+}
+
+.section-summary h4 {
+    color: #0073b7;
+    font-size: 1rem;
+}
+
+.section-summary h4 + p {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.summary-table-section {
+    display: flex;
+    padding: 20px 0 0;
+}
+
+.summary-table {
+    width: 49%;
+    margin: 8px;
+}
+
+ 
+.summary-table.green h4{
+    color: #4caf50;
+}
+
+.summary-table.green thead{
+    background: #4caf50;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(238,238,238,.3);
+}
+
+.evaluation-table tr:nth-of-type(odd) {
+    background: none !important;
+}
+
+.evaluation-table tr td {
+    border: none !important;
+}
+
+table.evaluation-table td {
+    padding: 5px 5px 5px 20px;
+}
+
+
+.patuh-content {
+    padding: 0 10px;
+}
+
+ul.menu-list {
+    display: flex;
+    flex-direction: column;
+}
+
+ul.menu-list li {
+    margin-bottom: 20px;
+}
+
+ul.menu-list li a{
+    color: #0073b7;
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+.pauth-table-section {
+    font-size: 13px;
+    padding-top: 8px;
+}
+
+.patient-info {
+    border: 1px solid #ddd;
+    padding: 10px 2px 0;
+    margin-bottom: 10px;
+}
+
+.patient-info h5{
+    color: #0073b7;
+    font-size: 16px;
+}
+
+.authid {
+    display: flex;
+    justify-content: space-between;
+    background: #000;
+    color: #fff;
+    padding: 5px 15px;
+    margin: 2px 0;
+    position: absolute;
+    top: 0;
+    right: 0px;
+}
+
+.status {
+    background: #3598db;
+    color: #fff;
+}
+
+.auth-btn {
+    display: flex;
+    justify-content: flex-start;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.auth-btn a {
+    margin: 2px;
+}
+
+
+.review {
+    background: #dcd609;
+    color: #fff;
+    display: inline;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-warning, .btn-warning:hover {
+    color: #fff;
+}
+
+.auth-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    position: relative;
+}
+
+.staff-notes .min-wid{
+    min-width: 190px;
+}
+
+.blue {
+    color: #3598db;
+}
+.italic {
+    font-style: italic;
+}
+
+.patient-info.staff-notes table tr:nth-child(odd) {
+    background: #f7f7f7;
+}
+
+ul.menu-list li.active {
+    background: #0073b7;
+    padding: 6px 12px;
+    border-radius: 5px;
+}
+
+ul.menu-list li.active a{
+    color: #fff;
+}
+
+.patient-info.staff-notes {
+    padding-top: 0;
+    max-height: 661px;
+    overflow-y: auto;
+}
+
+.patient-info.staff-notes h5 {
+    margin-bottom: 0;
+    float: left;
+    padding: 10px 10px 10px 0;
+}
+
+.staff-notes h5 {
+    float: left;
+}
+
+.notes {
+    float: left;
+    margin-top: 5px;
+}
+
+.addnotes {
+    margin: 5px;
+}
+
+.addnotes div#collapseExample {
+    margin: 10px 0;
+}
+
+
+.modal-body textarea#textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+
+.patient-info.staff-notes span {
+    display: block;
+}
+
+.pauth-heading {
+    position: relative;
+}
+
+.patient-info.staff-notes .modal-body {
+    padding: 5px;
+}
+
+.patient-info.staff-notes .modal-header{
+    padding: 0rem 6px;
+}
+
+.patient-info.staff-notes .modal-footer {
+    padding: 6px 6px;
+    border: none;
+}
+
+.patient-info.staff-notes .modal-header .close {
+    padding: 10px;
+    margin: -2px;
+}
+
+.btn-primary {
+    background-color: #0073b7;
+    border-color: #0073b7;
+}
+
+.btn {
+    padding: 5px 12px;
+}
+
+.bluebar {
+    background: #0073b7;
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+}
+.graybar {
+    background: #d5d5d5;
+    padding: 10px;
+    color: #333;
+    border-radius: 5px;
+}
+
+
+.message-section {
+    padding: 10px;
+    float: left;
+}
+
+.left-message {
+    width: 70%;
+    float: left;
+    
+}
+
+.left-message .time {
+    float: left;
+    margin: 6px 0 15px;
+}
+
+
+
+.right-message {
+    width: 70%;
+    float: right;
+}
+.right-message .time {
+    float: right;
+    margin: 6px 0 15px;
+}
+
+.reply {
+    float: left;
+    width: 100%;
+    border-top: 1px solid #ddd;
+    padding-top: 0;
+    display: flex;
+    align-items: center;
+}
+
+.reply input{
+    width: 100%;
+    border: 0px solid #ddd;
+}
+
+.reply ul {
+    justify-content: space-between;
+    display: flex;
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+.reply-icon ul li {
+    margin: 0 5px;
+    border: 1px solid #0073b7;
+    background: #fff;
+    padding: 3px 6px;
+    border-radius: 5px;
+    color: #0073b7;
+}
+
+
+.patient-info.provider-message-section {
+    margin: 10px 5px;
+}
+
+.provider-message-section table td {
+    font-size: 13px;
+    padding: 12px 5px;
+}
+
+.table td, .table th {
+    padding: .55rem;
+}
+
+ul.pagination {
+    justify-content: center;
+}
+
+.bordernone {
+    border-bottom: 0 !important;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: #00c0ef;
+}
+
+.orange {
+    color: orange;
+}
+
+
+.summary-table-section table tr:nth-child(odd) {
+    background: none !important;
+}
+
+.table-box {
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 3px;
+    display: inline-block;
+    max-height: 50px;
+    overflow-y: auto;
+}
+
+.nopadding {
+    padding: 0 !important;
+}
+
+.tl {
+    text-align: left;
+}
+
+.tc {
+    text-align: center;
+}
+
+.tr {
+    text-align: right;
+}
+
+.summary-table-section a {
+    margin: 3px;
+}
+
+
+.disclosure {
+    padding: 10px 20px;
+    line-height: 24px;
+}
+.disclosure h5 {
+    color: #0073b7;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+}
+.disclosure a {
+    color: #0073b7;
+}
+
+@media screen and (max-width:991px){
+    ul.nav {
+        flex-direction: column;
+    }
+
+    .right-nav {
+        display: none;
+    }
+    .summary-table {
+        width: 100%;
+    }
+    .summary-table-section {
+        flex-direction: column;
+    }
+
+    .section-summary ul {
+        display: block;
+    }
+    
+    .section-summary ul li {
+        display: inline-block;
+        width: 48%;
+        margin: 5px auto;
+    }
+
+}
+
+
+@media screen and (max-width:667px){
+    .section-summary ul li {
+        width: 100%;
+    }
+
+}
